@@ -29,7 +29,7 @@ A simple Ruby-based tool for converting an exported `delicious.html` file from [
 
 ## Caveats
 
-I slapped this together quickly in an hour or so. It's really only tested against an export of my personal bookmarks. It may or may not work for you.
+I slapped this together quickly in an hour or so. It's really only tested against an export of [my Delicious bookmarks](https://delicious.com/jgarber). It may or may not work for you.
 
 ### HTML elements in titles and descriptions
 
