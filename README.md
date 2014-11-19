@@ -15,7 +15,7 @@ A simple Ruby-based tool for converting an exported `delicious.html` file from [
 
 1. Install Ruby 2.1.4. If you're using Mac OS X, you can use tools like [chruby](https://github.com/postmodern/chruby), [rbenv](https://github.com/sstephenson/rbenv), or [RVM](https://rvm.io) to install multiple versions of Ruby, including the one required for this tool.
 2. Install Bundler (`gem install bundler`).
-3. Install gems (`bundle install`)
+3. Install gems (`bundle install`).
 
 
 ## Usage
