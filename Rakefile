@@ -31,7 +31,7 @@ def build_output_file_contents
       out['comment'] = dd[0].content
     end
 
-    output_file_contents.push(out)
+    output_file_contents.unshift(out)
   end
 
   output_file_contents
