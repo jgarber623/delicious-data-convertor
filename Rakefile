@@ -22,19 +22,19 @@ def build_output_file_contents
     out = {
       add_date: Time.at(link['add_date'].to_i),
       private: link['private'],
-      tags: link['tags'].split(','),
+      tags: link['tags'].split(',').sort,
       title: link.content,
       url: link['href']
     }
 
     if dd.any?
-      out['comment'] = dd[0].content
+      out[:comment] = dd[0].content.strip
     end
 
-    output_file_contents.unshift(out)
+    output_file_contents.push(Hash[out.sort_by(&:first)].to_h)
   end
 
-  output_file_contents
+  output_file_contents.sort_by { |item| item[:add_date] }
 end
 
 namespace :convert do
