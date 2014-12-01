@@ -24,7 +24,7 @@ A simple Ruby-based tool for converting an exported `delicious.html` file from [
 2. Visit the ["Manage" section](https://delicious.com/settings/manage) of your Delicious account and choose "Export Bookmarks." Be sure to include tags and notes in the export (the default).
 3. Save the resulting `delicious.html` file to this project's `data` directory.
 4. Back over in Terminal, run `rake convert` from the root of the project.
-5. Marvel at the resulting `bookmarks.json` file in the `data` folder!
+5. Marvel at the resulting `delicious.json` file in the `data` folder!
 
 
 ## Caveats
